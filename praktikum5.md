@@ -34,9 +34,7 @@
    
    **Setuid lubab kasutajal jooksutada skripti omaniku õigustega selle asemel, et jooksutada seda kasutaja õigustega**
    
-   ```
-   ![](praktikum5-1.png)
-   ```
+   ![](praktikum5-2.png)
 
 6. Kas `setuid` või `setgid` kasutamine võib vähendada süsteemi turvalisust? Kui `JAH`, siis kuidas? kui `EI`, siis miks ei vähenda?
    
