@@ -1,0 +1,96 @@
+    1  sudo adduser toomas vboxsf
+    2  ls
+    3  ls -a
+    4  start 
+    5  start .
+    6  sudo apt-get autoremove --purge lubuntu-desktop
+    7  reboot
+    8  sh skript.sh 
+    9  pwd
+   10  chmod a+x Kaust3/skript.sh
+   11  cd ..
+   12  chmod a+x Kaust3/skript.sh
+   13  Kaust3/skript.sh
+   14  chmod a=x Kaust3/skript.sh 
+   15  Kaust3/skript.sh \
+   16  Kaust3/skript.sh
+   17  ls -l Kaust3
+   18  chmod a+r Kaust3/skript.sh
+   19  Kaust3/skript.sh
+   20  chmod a-r Kaust3/skript.sh
+   21  Kaust3/skript.sh
+   22  chmod a+w Kaust3/skript.sh
+   23  Kaust3/skript.sh
+   24  chmod a-w Kaust3/skript.sh
+   25  chmod a+r Kaust3/skript.sh
+   26  Kaust3/skript.sh
+   27  umask
+   28  umask -S
+   29  umask 037
+   30  umask
+   31  umask 002
+   32  umask
+   33  touch umask002.txt
+   34  umask 037
+   35  touch umask037.txt
+   36  ls -l
+   37  id toomas
+   38  umask
+   39  umask 0022
+   40  umask
+   41  mkdir majasiseseks-kasutamiseks
+   42  cd majasiseseks-kasutamiseks/
+   43  id toomas
+   44  adduser toomas majasisene
+   45  sudo adduser toomas majasisene
+   46  id toomas
+   47  cd ..
+   48  rm -r majasiseseks-kasutamiseks/
+   49  sudo su
+   50  id toomas
+   51  cat majasiseseks-kasutamiseks/uusfail.txt 
+   52  ls -l
+   53  cat majasiseseks-kasutamiseks/uusfail.txt 
+   54  id toomas
+   55  cat majasiseseks-kasutamiseks/uusfail.txt 
+   56  ls -al majasiseseks-kasutamiseks/
+   57  cat majasiseseks-kasutamiseks/uusfail.txt 
+   58  ls -al
+   59  cat majasiseseks-kasutamiseks/uusfail.txt 
+   60  id toomas
+   61  su peeter
+   62  su joosep
+   63  sudo su
+   64  cd /tmp/yhiskaust/
+   65  ls
+   66  touch mingi-muu-fail.txt
+   67  ls -al
+   68  echo konnad >> fail3.txt
+   69  ls -al
+   70  rm fail1.txt 
+   71  rm bar.txt 
+   72  echo "see on oluline info" >> testfail-2
+   73  sudo chattr +i testfail-2
+   74  lsattr testfail-2
+   75  rm testfail-2
+   76  sudo rm testfail-2
+   77  ls -aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaal
+   78  sudo rm testfail-2
+   79  cd Desktop/
+   80  cat majasiseseks-kasutamiseks/uusfail.txt 
+   81  id toomas
+   82  cd majasiseseks-kasutamiseks/
+   83  ls
+   84  cat uusfail.txt 
+   85  id
+   86  clear
+   87  id
+   88  ls -la
+   89  cat uusfail.txt 
+   90  sudo adduser opetaja
+   91  sudo su -opetaja
+   92  sudo su - opetaja
+   93  su jukuisa
+   94  sudo su - opetaja
+   95  history
+   96  history >> Desktop/history.txt

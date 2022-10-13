@@ -41,7 +41,26 @@
    **Võib vähendada süsteemi turvalisust kuna faili omanik võib olla root kasutaja ning siis pole piire õiguste mõttes**
 
 7. Kirjutage oma viki lehele kõik kasutajaid, kes saavad `sticky bit` õigustega `yhiskaust` kataloogist nüüd `peeter` kasutaja loodud faile kustutada. (teema: sticky bit)
+   
+   **Kasutajad opetaja, peeter, root saavad kasutaja peeter loodud faile kustutada**
 
 8. Uurige käsuga `ls -la` faili `hinded.txt` õigusi - mida märkate? Seejärel uurige õigusi täpsemalt, kasutades käsku `getfacl` ning kopeerige see tulemus oma vikilehele. (teema: ACL)
+   
+   **Failile hinded.txt tekkis õiguste juurde + ehk -rw-rw----+**
+   
+   **file: hinded.txt**
+   
+   **owner: opetaja**
+   
+   **group: opetaja**
+   
+   **user:: rw-
+   group:: ---
+   group: direktor:rw-
+   mask:: rw**
+   
+   **other:: ---**
 
 9. Kes saab `chattr +i` parameetriga faili sisu modifitseerida (kirjutada)? Milliste käskudega saate kustutada `testfail-2` nimelise `+i` parameetriga faili.
+
+        **Mitte keegi ei saa kustutada testfail-2 faili. Proovisin ka root kasutajaga -         ei õnnestunud. Eelkõige peab tegema sudo chattr -i testfail-2 ja siis saab         kustutada**
